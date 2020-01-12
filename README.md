@@ -26,10 +26,10 @@ If the folder already contains a `.git` directory, the tool will exit.
 
 ## Missing
 
--   Project templates (being able to create a directory structure from react-react-app or the likes)
+-   Project templates (being able to create a directory structure from [react-react-app](https://github.com/facebook/create-react-app) or the likes)
 -   Better documentation
 -   Proper testing
 
 ## Maintainers
 
-Daniel LeSage [https://github.com/dlesage25]
+[Daniel LeSage](https://github.com/dlesage25)
