@@ -24,6 +24,12 @@ You will be asked to authenticate with Github- both standard and 2FA authenticat
 Once authenticated, gitneat will run you through a repo setup wizard.
 If the folder already contains a `.git` directory, the tool will exit.
 
+## Missing
+
+-   Project templates (being able to create a directory structure from react-react-app or the likes)
+-   Better documentation
+-   Proper testing
+
 ## Maintainers
 
 Daniel LeSage [https://github.com/dlesage25]
