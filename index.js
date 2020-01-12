@@ -4,6 +4,7 @@ const chalk = require('chalk');
 const clear = require('clear');
 const figlet = require('figlet');
 
+const files = require('./lib/files');
 const github = require('./lib/github');
 const repo = require('./lib/repo');
 
@@ -18,10 +19,10 @@ console.log(
     )
 );
 
-// if (files.directoryExists('.git')) {
-//     console.log(chalk.red('Already a Git repository. Exiting...'));
-//     process.exit();
-// }
+if (files.directoryExists('.git')) {
+    console.log(chalk.red('Already a Git repository. Exiting...'));
+    process.exit();
+}
 
 const main = async () => {
     try {
@@ -31,7 +32,6 @@ const main = async () => {
         const repoUrl = await repo.createRemoteRepo();
         // Create .gitignore file
         await repo.createGitignore();
-        console.log({ repoUrl });
         // Set up local repository and push to remote
         await repo.setupRepo(repoUrl);
         console.log(chalk.green('All done!'));
