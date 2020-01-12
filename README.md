@@ -8,17 +8,20 @@ Gitneat is a small CLI application for initializing local &amp; remote repositor
 ## Install
 
 ```console
-$ npm install gitneat
+$ npm i -g gitneat
 ```
 
 ## Usage
 
-Just run the gitneat command on any folder:
+Run the gitneat command inside the directory you want to init:
 
 ```console
 $ gitneat
 ```
 
+You will be asked to authenticate with Github- both standard and 2FA authentication are supported.
+
+Once authenticated, gitneat will run you through a repo setup wizard.
 If the folder already contains a `.git` directory, the tool will exit.
 
 ## Maintainers
