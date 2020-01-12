@@ -23,7 +23,7 @@ console.log(
 // }
 
 const main = async () => {
-    await github.appAuthentication();
+    await github.loginFlow();
     // let token = github.getStoredGithubToken();
     // if (!token) {
     //     await github.setGithubCredentials();
