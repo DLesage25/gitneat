@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "jest"
     },
     "bin": {
         "gitneat": "./index.js"
@@ -29,6 +29,8 @@
         "touch": "^3.1.0"
     },
     "devDependencies": {
-        "eslint": "^6.8.0"
+        "@types/jest": "^24.9.0",
+        "eslint": "^6.8.0",
+        "jest": "^25.1.0"
     }
 }
