@@ -7,14 +7,12 @@
 .|....'
 ```
 
-
-
 Gitneat is a small CLI application for initializing local &amp; remote repositories. It presents multiple added benefits over the traditional `git init`.
 
 ## Highlights
 
 -   Automatically creates a remote repository linked to your local repo
--   Creates a gitignore, which you can either populate by selecting files or use one of the Github templates
+-   Creates a gitignore, which you can either populate by selecting local files or use one of the Github templates
 
 ## Install
 
@@ -39,7 +37,7 @@ If the folder already contains a `.git` directory, the tool will exit.
 
 -   Project templates (being able to create a directory structure from [react-react-app](https://github.com/facebook/create-react-app) or the likes)
 -   Better documentation
--   Proper testing
+-   More tests
 
 ## Maintainers
 
