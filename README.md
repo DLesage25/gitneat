@@ -1,3 +1,5 @@
+![badge#1](https://img.shields.io/github/languages/code-size/dlesage25/gitneat)
+
 ```
          ||    .                              .
   ... . ...  .||.  .. ...     ....   ....   .||.
