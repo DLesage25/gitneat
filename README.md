@@ -1,15 +1,6 @@
 ![badge#1](https://img.shields.io/github/languages/code-size/dlesage25/gitneat)
 
-```
-         ||    .                              .
-  ... . ...  .||.  .. ...     ....   ....   .||.
- || ||   ||   ||    ||  ||  .|...|| '' .||   ||
-  |''    ||   ||    ||  ||  ||      .|' ||   ||
- '||||. .||.  '|.' .||. ||.  '|...' '|..'|'  '|.'
-.|....'
-```
-
-Gitneat is a small CLI application for initializing local &amp; remote repositories. It presents multiple added benefits over the traditional `git init`.
+Small CLI application for initializing local &amp; remote repositories. It presents multiple added benefits over the traditional `git init`.
 
 ## Highlights
 
