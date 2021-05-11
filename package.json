@@ -23,7 +23,7 @@
         "configstore": "^5.0.0",
         "figlet": "^1.2.4",
         "inquirer": "^7.0.3",
-        "lodash": "^4.17.15",
+        "lodash": "^4.17.21",
         "minimist": "^1.2.2",
         "simple-git": "^1.129.0",
         "touch": "^3.1.0"
